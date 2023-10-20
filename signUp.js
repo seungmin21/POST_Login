@@ -3,3 +3,5 @@ const signUpAsset = {
   password : "1234",
   email : "ohmin@gmail.com",
 }
+
+module.exports = signUpAsset;
