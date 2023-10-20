@@ -12,9 +12,8 @@ http.createServer((request, response) => {
     request.on('end', () => {
       querystring.parse(body);
     })
-    // console.log(body);
-//    response.writeHead(200, {'Content-Type': 'text/plain'});
-//    response.end("hello");
+    response.writeHead(200, {'Content-Type': 'text/plain'});
+    response.end(`hello`);
   }
-})//.listen(4040);
-
+  console.log(body);
+})
