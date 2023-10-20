@@ -5,14 +5,14 @@
 
 // 만약 소문자 그리고 대문자가 같이 있으면 참 없으면 거짓
 
-if (["a-z"] && ["A-Z"]) {
-  console.log("참")
-} else {
-  console.log("거짓")
-}
 
+const x = String.fromCharCode(65);
+console.log(x)
 
+const y = String.fromCharCode(90);
+console.log(y);
 
-for (let i = 'a'; i <= 'z'; i++) {
+for(let i = 65; i < 90; i++) {
+  String.fromCharCode[i]
   console.log(i)
 }
